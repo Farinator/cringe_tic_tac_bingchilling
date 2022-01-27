@@ -38,8 +38,8 @@ btnboard = [
 images =[]
 #Generating the background Null image
 
-theWok1 = Image.open("images/the_wok.png")
-theWok2 = Image.open("images/the_wok_copy.png")
+theWok1 = Image.open("the_wok.png")
+theWok2 = Image.open("the_wok_copy.png")
 images.append(ImageTk.PhotoImage(theWok1))
 images.append(ImageTk.PhotoImage(theWok2))
 images.append(ImageTk.PhotoImage(Image.new(mode="RGB", size=(button_sizex,button_sizey), color=(240, 240, 240))))
